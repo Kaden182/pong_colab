@@ -1,7 +1,8 @@
 #colab是ubuntu环境，paddle也得换成对应的版本:https://www.paddlepaddle.org.cn/install/old?docurl=/documentation/docs/zh/install/pip/windows-pip.html#old-version-anchor-15-Linux%20%E5%AE%89%E8%A3%85
 #requirements for tutorials (paddle fluid version)
 #输入命令安装：pip install -r requirements.txt
-paddlepaddle-gpu==2.2.2.post112 -f https://www.paddlepaddle.org.cn/whl/linux/mkl/avx/stable.html
+# gpu版本： paddlepaddle-gpu==2.2.2.post112 -f https://www.paddlepaddle.org.cn/whl/linux/mkl/avx/stable.html
+# cpu版本： paddlepaddle-gpu==2.2.2.post112 -f https://www.paddlepaddle.org.cn/whl/windows/mkl/avx/stable.html
 protobuf==3.20
 parl==2.0.3
 gym==0.18.0
